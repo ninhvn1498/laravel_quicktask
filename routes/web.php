@@ -10,7 +10,6 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::post('task', 'TaskController@getTask')->name('task.get_task');
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
